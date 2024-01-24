@@ -11,5 +11,7 @@ export class SmallCardComponent {
   imageCover: string = ""
   @Input()
   cardTitle: string = ""
+  @Input()
+  id: string = "0"
 
 }
