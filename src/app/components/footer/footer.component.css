@@ -1,0 +1,22 @@
+.footer-container {
+  text-align: center;
+  /* position: fixed; */
+ bottom: 0; Remova esta linha
+  width: 100%;
+  color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: auto;
+}
+
+.footer-container hr {
+  border: 1px solid #fff;
+  margin: 5px 0;
+}
+
+@media screen and (max-width: 600px) {
+  .footer-container{
+    font-size: 14px;
+  }
+}
+
