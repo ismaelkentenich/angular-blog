@@ -22,6 +22,10 @@
   align-items: center;
 }
 
+.small-card-title > h1{
+  font-size: 22px;
+}
+
 .small-card-separator{
   margin-top: 15px;
   /* margin-bottom: 20px; */

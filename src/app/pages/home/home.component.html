@@ -1,40 +1,24 @@
-
 <app-menu-title></app-menu-title>
 
 <div class="articles-container">
-
   <div class="articles_main">
     <app-big-card
-      id="1"
-      imageCover="https://www.pulsecarshalton.co.uk/wp-content/uploads/2016/08/jk-placeholder-image.jpg"
-      cardTitle="Maecenas blandit mi nec semper dictum."
-      cardDescription="Sed et sollicitudin urna. Curabitur tellus elit, tincidunt eu diam et, suscipit aliquet nisi."
-      >
-      </app-big-card>
+      *ngIf="articles.length > 0"
+      [id]="articles[0].id"
+      [imageCover]="articles[0].image"
+      [cardTitle]="articles[0].title"
+      [cardDescription]="articles[0].description"
+    ></app-big-card>
   </div>
 
   <div class="articles_list">
     <app-small-card
-      id="2"
-      imageCover="https://www.pulsecarshalton.co.uk/wp-content/uploads/2016/08/jk-placeholder-image.jpg"
-      cardTitle="Maecenas blandit mi nec semper dictum."
-    >
-    </app-small-card>
+      *ngFor="let article of articles.slice(1)"
+      [id]="article.id"
+      [imageCover]="article.image"
+      [cardTitle]="article.title"
+    ></app-small-card>
 
-    <app-small-card
-      id="3"
-      imageCover="https://www.pulsecarshalton.co.uk/wp-content/uploads/2016/08/jk-placeholder-image.jpg"
-      cardTitle="Maecenas blandit mi nec semper dictum."
-    >
-    </app-small-card>
-
-    <app-small-card
-      id="4"
-      imageCover="https://www.pulsecarshalton.co.uk/wp-content/uploads/2016/08/jk-placeholder-image.jpg"
-      cardTitle="Maecenas blandit mi nec semper dictum."
-    >
-    </app-small-card>
 
   </div>
-
 </div>
