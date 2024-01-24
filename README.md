@@ -8,8 +8,8 @@ Project developed during the "Desenvolvimento Frontend com Angular" Bootcamp by 
 
 <h4 align="center"> - DESKTOP - </h4>
         <p align="center">
-            <img src="/src/assets/images/1.png" alt="Home page on Desktop" style="width: 45%;">
-            <img src="/src/assets/images/2.png" alt="Content page on Desktop" style="width: 45%;">
+            <img src="/src/assets/images/2.png" alt="Home page on Desktop" style="width: 45%;">
+            <img src="/src/assets/images/1.png" alt="Content page on Desktop" style="width: 45%;">
         </p>
 		
 
