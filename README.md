@@ -8,15 +8,15 @@ Project developed during the "Desenvolvimento Frontend com Angular" Bootcamp by 
 
 <h4 align="center"> - DESKTOP - </h4>
         <p align="center">
-            <img src="/assets/images/1.png" alt="Home page on Desktop" style="width: 45%;">
-            <img src="/assets/images/2.png" alt="Pokemon Details on Desktop" style="width: 45%;">
+            <img src="/src/assets/images/1.png" alt="Home page on Desktop" style="width: 45%;">
+            <img src="/src/assets/images/2.png" alt="Content page on Desktop" style="width: 45%;">
         </p>
 		
 
 <h4 align="center"> - iPhone SE - </h4>
         <p align="center">
-            <img src="/assets/images/3.png" alt="Home page on iPhone" style="width: 20%;">
-            <img src="/assets/images/4.png" alt="Pokemon Details on iPhone" style="width: 20%;">
+            <img src="/src/assets/images/3.png" alt="Home page on iPhone" style="width: 20%;">
+            <img src="/src/assets/images/4.png" alt="Content page on iPhone" style="width: 20%;">
         </p>
 
 
