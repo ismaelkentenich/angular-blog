@@ -1,0 +1,23 @@
+.menu-title-container{
+  color: white;
+}
+
+.menu-title-container > hr{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.menu-title-container > h1{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 130px;
+  /* font-family: ; */
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .menu-title-container > h1 {
+    font-size: 72px;
+  }
+}

@@ -1,0 +1,13 @@
+.articles-container{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .articles-container {
+    flex-direction: column; /* Altera para flex direction column em dispositivos móveis */
+    align-items: center; /* Centraliza os itens na direção da coluna */
+  }
+}

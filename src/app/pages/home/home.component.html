@@ -1,0 +1,24 @@
+<!-- <app-menu-title></app-menu-title> -->
+
+<div class="articles-container">
+  <div class="articles_main">
+    <app-big-card
+      *ngIf="articles.length > 0"
+      [id]="articles[0].id"
+      [imageCover]="articles[0].image"
+      [cardTitle]="articles[0].title"
+      [cardDescription]="articles[0].description"
+    ></app-big-card>
+  </div>
+
+  <div class="articles_list">
+    <app-small-card
+      *ngFor="let article of articles.slice(1)"
+      [id]="article.id"
+      [imageCover]="article.image"
+      [cardTitle]="article.title"
+    ></app-small-card>
+
+
+  </div>
+</div>
