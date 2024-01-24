@@ -2,5 +2,12 @@
   margin-top: 40px;
   display: flex;
   flex-direction: row;
+  justify-content: centerm;
+}
+
+header{
+  /* border: 2px solid white; */
+  display: flex;
   justify-content: center;
+  margin-top: 15px;
 }
